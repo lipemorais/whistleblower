@@ -33,7 +33,10 @@ class FacebookMessenger:
         """
         List of Facebook users who chose to receive posts.
         """
-        return ['1382735351782042']
+        return [
+            '1373004039480791',
+            '1382735351782042',
+        ]
 
 
 class Post:
