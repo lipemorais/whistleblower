@@ -13,7 +13,7 @@ import whistleblower.queue
 HOUR = 3600
 ENABLED_TARGETS = [
     TwitterPost,
-    MessengerPost,
+    # MessengerPost,
 ]
 RABBITMQ_URL = os.environ.get('CLOUDAMQP_URL', 'pyamqp://guest@localhost//')
 app = Celery('tasks', broker=RABBITMQ_URL)
